@@ -1,6 +1,7 @@
 import React from "react";
 import AnalyticsImage from "../assets/images/AnalyticsImage.png";
-import Content2 from "..//assets/images/content2.png";
+import Content2 from "../assets/images/content2.png";
+import iconV from '../assets/images/IconV.png'
 import arrowrright from "../assets/images/arrowrright.png";
 import Company1 from "../assets/companyImages/company1.png";
 import Company2 from "../assets/companyImages/company2.png";
@@ -36,14 +37,26 @@ const AnalyticsSection = () => {
             startups.
           </p>
         </div>
-        <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-fit">
-          <button className="px-4 py-2 border border-gray-200 rounded-full">
+        <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-fit relative">
+          {/* Demo Button */}
+          <button className="px-4 py-2 border border-gray-200 rounded-full flex items-center justify-center">
+            
+            <span>
+              <img src={iconV} alt="Demo icon" className="w-4 h-4" />
+            </span>
+            <span className="ml-1">
             Demo
+            </span>
+
+            
           </button>
+
+          {/* Sign Up Button */}
           <button className="px-4 py-2 border border-gray-100 rounded-full bg-[#E63F3A] text-white">
             Sign up
           </button>
         </div>
+
       </div>
       <div>
         <div>
