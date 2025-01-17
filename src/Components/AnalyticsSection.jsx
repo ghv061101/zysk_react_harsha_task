@@ -1,5 +1,4 @@
 import React from "react";
-import AnalyticsImage from "../assets/images/AnalyticsImage.png";
 import Content2 from "../assets/images/content2.png";
 import iconV from '../assets/images/IconV.png'
 import arrowrright from "../assets/images/arrowrright.png";
