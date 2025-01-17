@@ -62,11 +62,11 @@ const AnalyticsSection = () => {
           <div className="">
             <img
               src={Content2}
-              alt="Analytics"
-              className="md:w-[1216px] md:h-[810px] "
+              
+              className="md:w-[1216px] md:h-[810px] rounded-md border-4 border-black "
             />
           </div>
-          <div className="flex flex-col items-center gap-8 py-24 md:-translate-y-64 md:-mb-64 bg-white border-b-2">
+          <div className="flex flex-col items-center gap-8 py-24 md:-translate-y-64 md:-mb-64 bg-white border-b-2 ">
             <h1>Join 4,000+ companies already growing</h1>
             <div className="flex flex-wrap justify-center gap-8 px-4">
               <img
